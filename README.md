@@ -26,7 +26,7 @@ Add the below Environment properties in you Elastic Beanstalk.
 
 1. Install nfs-utils and jq for the mounting purpose.
 2. Simple bash script to mount the efs to ***/mnt/efs/uploads***
-3. Remove the /var/app/ondeck/wp-content/uploads ***/var/app/ondeck/wp-content/uploads*** directory.
+3. Removing the ***/var/app/ondeck/wp-content/uploads*** directory.
 4. Link the ***/var/app/ondeck/wp-content/uploads*** to ***/mnt/efs/uploads***
 
 
